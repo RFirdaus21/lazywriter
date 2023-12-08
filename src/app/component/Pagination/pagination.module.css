@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.button {
+    width: 120px;
+    border: none;
+    padding: 16px;
+    background-color: #f05454;
+    color: white;
+    cursor: pointer;
+    border-radius: 5%;
+    font-weight: 700;
+    font-size: 0.9rem;
+}

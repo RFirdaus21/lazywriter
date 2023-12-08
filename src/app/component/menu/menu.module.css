@@ -1,0 +1,11 @@
+.container {
+    flex: 2;
+    margin-top: 55px;
+    margin-left: 4rem;
+}
+
+@media screen  and (max-width: 760px) {
+    .container {
+        margin-left: 0;
+    }
+}
