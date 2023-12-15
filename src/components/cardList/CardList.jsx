@@ -5,7 +5,7 @@ import Card from '../card/Card'
 
 
 const getData = async (page, cat)=> {
-  const res = await fetch (`https://lazywriter.vercel.app/api/posts?page=${page}&cat=${cat || ""}`, {
+  const res = await fetch (`/api/posts?page=${page}&cat=${cat || ""}`, {
     cache: "no-store",
   });
 
