@@ -12,7 +12,7 @@ const Navbar = () => {
           <a href='/'><h1>lazywriter</h1></a>
         </div>
         <div className={styles.links}>
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             <Link href="/" className={styles.link}>Home</Link>
             <Link href="/" className={styles.link}>About</Link>
             <Link href="/" className={styles.link}>Contact</Link>

@@ -1,0 +1,1 @@
+--> react-quill untuk library pada write (bold, italic, h2, h3, quote)

@@ -15,3 +15,8 @@
     font-weight: 700;
     font-size: 0.9rem;
 }
+
+.button:disabled {
+    border-color: #f05454;
+    cursor: not-allowed;
+}

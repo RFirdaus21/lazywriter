@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: #dfd7bf;
+    padding: 70px;
+    gap: 50px;
+}
+
+.title {
+    font-size: 36px;
+    margin: 10px;
+    font-weight: 800;
+    color: #3f2305;
+    justify-content: center;
+}
+
+.loginButton{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.loginButton:nth-child(2) {
+    background-color: #ff5555;
+}
+
+.loginButton:nth-child(3) {
+    background-color: #1877f2;
+}
+
+@media  screen and (max-width : 768px) {
+    .box {
+        padding: 50px 100px;
+    }
+}
+
+@media  screen and (max-width : 640px) {
+    .box {
+        padding: 30px;
+    }
+
+    .loginButton {
+        font-weight: 400;
+        font-size: 14px;
+    }
+}

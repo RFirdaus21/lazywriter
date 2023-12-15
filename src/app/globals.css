@@ -21,6 +21,12 @@ a {
   text-decoration: none;
 }
 
+.light {
+  -bg: #0f172a;
+  --textColor : #ddd;
+  --softBg: #1f273a;
+  --softTextColor : #a6a6a6
+}
 .container {
   min-height: 100vh;
   background-color: var(--bg);
@@ -41,6 +47,14 @@ a {
   background-color: white;
   padding-left: 80px;
   padding-right: 80px;
+}
+
+.ql-container {
+  font-size: 28px !important;
+}
+
+.quill > .ql-container > .ql-editor.ql-blank::before {
+  color: black;
 }
 
 @media screen and (max-width: 1536px) {
