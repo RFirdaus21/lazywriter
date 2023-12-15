@@ -6,7 +6,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const getData = async ()=> {
-  const res = await fetch ("/api/categories", {
+  const res = await fetch ("https://lazywriter.vercel.app/api/categories", {
     cache: "no-store",
   });
 
